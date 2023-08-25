@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="top">
+      <div class="nav">
+        <!-- Left Section-->
+        <div class="nav-left-section">
+          <div class="logo-container border">
+            <img src="amazon_logo.png" alt="logo-amazon" class="logo-image" />
+          </div>
+          <div class="address-container border">
+            <div class="address-icon-container">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="location-container">
+              <p class="address-to">Deliver to</p>
+              <p class="location-country">India</p>
+            </div>
+          </div>
+        </div>
+        <!-- Mid Section-->
+        <div class="nav-mid-section">
+          <div class="mid-section-wrapper">
+            <select>
+              <option value="All Departments">All</option>
+              <option value="All Departments">Art & Craft</option>
+              <option value="All Departments">Automative</option>
+              <option value="All Departments">Baby</option>
+              <option value="All Departments">Beauty &Personal Care</option>
+              <option value="All Departments">All</option>
+              <option value="All Departments">Art & Craft</option>
+              <option value="All Departments">Automative</option>
+              <option value="All Departments">Baby</option>
+              <option value="All Departments">Beauty &Personal Care</option>
+              <option value="All Departments">All</option>
+              <option value="All Departments">Art & Craft</option>
+              <option value="All Departments">Automative</option>
+              <option value="All Departments">Baby</option>
+              <option value="All Departments">Beauty &Personal Care</option>
+            </select>
+            <input
+              class="search-bar"
+              type="text"
+              name="search-space"
+              placeholder="Search Amazon"
+            />
+            <div class="search-icon-container">
+              <button class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Section -->
+        <div class="nav-right-section">
+          <div class="chosen-language border">
+            <img
+              src="flag-icon.png"
+              alt="language-glag"
+              class="country-flag-icon"
+            />
+            <div class="language-text-container">
+              <p class="language-text">EN</p>
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+          <div class="account-info-container border">
+            <div class="login-status">
+              <p class="login-status-text">Hello, sign in</p>
+            </div>
+            <div class="account-lists">
+              <p class="list-text">Accounts & Lists</p>
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+          <div class="order-info-container border">
+            <p class="return-text">Returns</p>
+            <p class="account-orders">& Orders</p>
+          </div>
+          <div class="cart-info-container border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p class="cart-text">Cart</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sub-header Section -->
+      <div class="sub-header-container">
+        <div class="hamburger-menu border">
+          <i class="fa-solid fa-bars"></i>
+          <p class="menu-text">All</p>
+        </div>
+        <div class="menu-categories-container">
+          <div class="sub-header-menu border">Today's Deals</div>
+          <div class="sub-header-menu border">Customer Service</div>
+          <div class="sub-header-menu border">Registry</div>
+          <div class="sub-header-menu border">Gift Cards</div>
+          <div class="sub-header-menu border">Sell</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="wrapper">
+      <div class="hero-section">
+        <div class="hero-msg">
+          <p class="hero-msg-text">
+            You are on amazon.com. You can also shop on Amazon India for
+            millions of products with fast local delivery.
+            <span>
+              <a href="https://amazon.in"
+                >Click here to go to amazon.in</a
+              ></span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Shop Section -->
+    <div class="wrapper wrapper-shop">
+      <div class="shop-category-grid">
+        <div class="category-items-container border">
+          <p class="shop-item-title">Gaming accessories</p>
+          <div class="gaming-items-container">
+            <div class="items-left">
+              <div class="item-image">
+                <img
+                  class="image-headphone"
+                  src="headphones.jpg"
+                  alt="headphones-img"
+                />
+              </div>
+              <div class="item-info">
+                <p class="item-info-text">Headsets</p>
+              </div>
+            </div>
+            <div class="items-right">
+              <div class="item-image">
+                <img
+                  class="image-keyboard"
+                  src="keyboards.jpg"
+                  alt="keyboard-img"
+                />
+              </div>
+              <div class="item-info">
+                <p class="item-info-text">Keyboards</p>
+              </div>
+            </div>
+          </div>
+          <div class="gaming-items-container container-2">
+            <div class="items-left">
+              <div class="item-image">
+                <img class="image-mice" src="mouse.jpg" alt="mouse-img" />
+              </div>
+              <div class="item-info">
+                <p class="item-info-text">Computer mice</p>
+              </div>
+            </div>
+            <div class="items-right">
+              <div class="item-image">
+                <img class="image-chair" src="chair.jpg" alt="chair-img" />
+              </div>
+              <div class="item-info">
+                <p class="item-info-text">Chairs</p>
+              </div>
+            </div>
+          </div>
+          <div class="link-container">
+            <a href="https://amazon.in">See more</a>
+          </div>
+        </div>
+        <div class="category-items-container border">
+          <p class="shop-item-title">Electronics</p>
+          <div class="item-image-general">
+            <img
+              class="image-electronics"
+              src="electronics.jpg"
+              alt="electronics-image"
+            />
+          </div>
+          <div class="link-container">
+            <a href="https://amazon.in">See more</a>
+          </div>
+        </div>
+        <div class="category-items-container border">
+          <p class="shop-item-title">Toys Under $30</p>
+          <div class="item-image-general">
+            <img class="image-toy" src="kid-toy.jpg" alt="toy-image" />
+          </div>
+          <div class="link-container">
+            <a href="https://amazon.in">Shop now</a>
+          </div>
+        </div>
+        <div class="category-items-container item-special border">
+          <div class="sign-in-remidner">
+            <p class="shop-item-title">Sign in for the best experience</p>
+            <div class="button-sign-container">
+              <button class="button-sign">Sign in securely</button>
+            </div>
+          </div>
+          <div class="brand-promotion">
+            <img class="promo-image" src="brand-promno.jpg" alt="promo" />
+          </div>
+        </div>
+        <div class="category-items-container border">
+          <p class="shop-item-title">Shop school essentials</p>
+          <div class="item-image-general">
+            <img
+              class="image-stationary"
+              src="stationary.jpg"
+              alt="stationaries-image"
+            />
+          </div>
+          <div class="link-container">
+            <a href="https://amazon.in">See more</a>
+          </div>
+        </div>
+        <div class="category-items-container border">
+          <p class="shop-item-title">Home & Kitchen Under $30</p>
+          <div class="item-image-general general-small">
+            <img class="image-kitchens" src="kitchen.jpg" alt="kitchen-image" />
+          </div>
+          <div class="link-container">
+            <a href="https://amazon.in">Shop now</a>
+          </div>
+        </div>
+        <div class="category-items-container border">
+          <p class="shop-item-title">Health & Personal Care</p>
+          <div class="item-image-general">
+            <img
+              class="image-health"
+              src="health-needs.jpg"
+              alt="health-needs-image"
+            />
+          </div>
+          <div class="link-container">
+            <a href="https://amazon.in">Shop now</a>
+          </div>
+        </div>
+        <div class="category-items-container border">
+          <p class="shop-item-title">Top Deal</p>
+          <div class="top-deal-container">
+            <img
+              class="top-deal-image"
+              src="top-deal-image.jpg"
+              alt="top-deal-image"
+            />
+          </div>
+          <div class="top-deal-info-container">
+            <div class="top-deal-deadline">
+              <div class="discount-container">
+                <p class="discount-text">Up to 30&#37; off</p>
+              </div>
+              <p class="timer-text">Ends in 02&#58;50&#58;10</p>
+            </div>
+            <div class="top-deal-info">
+              <p class="top-deal-info-text">BAGAIL Packing Cubes</p>
+            </div>
+          </div>
+          <div class="link-container top-deal-link">
+            <a href="https://amazon.in">Shop now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper wrapper-shop-exclusive">
+      <div class="products-exclusive-container">
+        <div class="title-exclusive">
+          <p class="title-exclusive-text">International top sellers</p>
+        </div>
+        <div class="top-sell-products-container">
+          <div class="item-top-sell sell-1">
+            <img class="product-img" src="img-1.jpg" alt="product-1" />
+          </div>
+          <div class="item-top-sell">
+            <img class="product-img" src="img-2.jpg" alt="product-2" />
+          </div>
+          <div class="item-top-sell">
+            <img class="product-img" src="img-3.jpg" alt="product-3" />
+          </div>
+          <div class="item-top-sell">
+            <img class="product-img" src="img-4.jpg" alt="product-4" />
+          </div>
+          <div class="item-top-sell">
+            <img class="product-img" src="img-5.jpg" alt="product-5" />
+          </div>
+          <div class="item-top-sell">
+            <img class="product-img" src="img-6.jpg" alt="product-6" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper wrapper-shop-exclusive">
+      <div class="shop-category-grid grid-exclusive">
+        <div class="category-items-container border">
+          <p class="shop-item-title">Back to school</p>
+          <div class="gaming-items-container">
+            <div class="items-left">
+              <div class="item-image">
+                <img
+                  class="image-headphone"
+                  src="notebooks.jpg"
+                  alt="notebooks-img"
+                />
+              </div>
+              <div class="item-info">
+                <p class="item-info-text">Notebooks</p>
+              </div>
+            </div>
+            <div class="items-right">
+              <div class="item-image">
+                <img
+                  class="image-accesories"
+                  src="accesories.jpg"
+                  alt="accesories-img"
+                />
+              </div>
+              <div class="item-info">
+                <p class="item-info-text">Accesories</p>
+              </div>
+            </div>
+          </div>
+          <div class="gaming-items-container container-2">
+            <div class="items-left">
+              <div class="item-image">
+                <img
+                  class="image-mice"
+                  src="food-storage.jpg"
+                  alt="food-storage-img"
+                />
+              </div>
+              <div class="item-info">
+                <p class="item-info-text">Food storage</p>
+              </div>
+            </div>
+            <div class="items-right">
+              <div class="item-image">
+                <img class="image-chair" src="pencils.jpg" alt="pencils-img" />
+              </div>
+              <div class="item-info">
+                <p class="item-info-text">Pencils</p>
+              </div>
+            </div>
+          </div>
+          <div class="link-container">
+            <a href="https://amazon.in">See more</a>
+          </div>
+        </div>
+        <div class="category-items-container border">
+          <p class="shop-item-title">Electronics</p>
+          <div class="item-image-general">
+            <img
+              class="image-electronics"
+              src="laptop.jpg"
+              alt="electronics-image"
+            />
+          </div>
+          <div class="link-container">
+            <a href="https://amazon.in">See more</a>
+          </div>
+        </div>
+
+        <div class="category-items-container border">
+          <p class="shop-item-title">For your Fitness Needs</p>
+          <div class="item-image-general">
+            <img
+              class="image-stationary"
+              src="fitness.jpg"
+              alt="stationaries-image"
+            />
+          </div>
+          <div class="link-container">
+            <a href="https://amazon.in">Shop now</a>
+          </div>
+        </div>
+        <div class="category-items-container border">
+          <p class="shop-item-title">Shop activity trackers & Smartwatches</p>
+          <div class="item-image-general general-small">
+            <img class="image-kitchens" src="watch.jpg" alt="kitchen-image" />
+          </div>
+          <div class="link-container">
+            <a href="https://amazon.in">Shop now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper wrapper-shop-exclusive">
+      <div class="products-exclusive-container exclusive-big">
+        <div class="title-exclusive">
+          <p class="title-exclusive-text">Home Decors</p>
+        </div>
+        <div class="top-sell-products-container">
+          <div class="item-top-sell sell-1">
+            <img class="product-img" src="pin.jpg" alt="product-1" />
+          </div>
+          <div class="item-top-sell">
+            <img class="product-img" src="pillow.jpg" alt="product-2" />
+          </div>
+          <div class="item-top-sell">
+            <img class="product-img" src="control.jpg" alt="product-3" />
+          </div>
+          <div class="item-top-sell">
+            <img class="product-img" src="lights.jpg" alt="product-4" />
+          </div>
+          <div class="item-top-sell">
+            <img class="product-img" src="pillow-covers.jpg" alt="product-5" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--footer-->
+    <div class="sign-in-reminder-footer">
+      <hr />
+      <div class="status-acount-container">
+        <div class="status-title">
+          <p class="status-title-text">See personalized recommendations</p>
+        </div>
+        <div class="sign-in-button-footer">
+          <button class="sign-in-now">Sign in</button>
+        </div>
+        <div class="new-user-msg">
+          <p class="new-user-msg-text">
+            New customer?<a href="">Start here.</a>
+          </p>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <div class="bottom-top-footer">
+      <div class="Back-to-Top">
+        <a class="link-footer" href="#top">Back to top</a>
+      </div>
+    </div>
+    <!--links-footer-->
+    <div class="brand-links-section">
+      <div class="wrapper-footer-links">
+        <div class="brand-link-container">
+          <div class="brand-link-item-left">
+            <div class="link-title-left"><p>Get to Know us</p></div>
+            <div class="links-container-left">
+              <p>Careers</p>
+              <p>Blog</p>
+              <p>About Amazon</p>
+              <p>Investor Relations</p>
+              <p>Amazon Devices</p>
+              <p>Amazon Science</p>
+            </div>
+          </div>
+          <div class="brand-link-item-mid-1">
+            <div class="link-title-left"><p>Make Money with Us</p></div>
+            <div class="links-container-left">
+              <p>Sell products on Amazon</p>
+              <p>Sell on Amazon Business</p>
+              <p>Sell apps on Amazon</p>
+              <p>Become an Affiliate</p>
+              <p>Advertise Your Products</p>
+              <p>Self-Publish with Us</p>
+              <p>Host an Amazon Hub</p>
+              <p>
+                <span style="margin-right: 5px; font-weight: bolder">›</span>See
+                More Make Money with Us
+              </p>
+            </div>
+          </div>
+          <div class="brand-link-item-mid-2">
+            <div class="link-title-left"><p>Amazon Payment Products</p></div>
+            <div class="links-container-left">
+              <p>Amazon Business Card</p>
+              <p>Shop with Points</p>
+              <p>Reload Your Balance</p>
+              <p>Amazon Currency Converter</p>
+            </div>
+          </div>
+          <div class="brand-link-item-right">
+            <div class="link-title-left"><p>Let Us Help You</p></div>
+            <div class="links-container-left">
+              <p>Amazon and COVID-19</p>
+              <p>Your Account</p>
+              <p>Your Orders</p>
+              <p>Shipping Rates & Policies</p>
+              <p>Returns & Replacements</p>
+              <p>
+                Manage Your <br />
+                Content and Devices
+              </p>
+              <p>Amazon Assistant</p>
+              <p>Help</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="brand-links-section-bottom">
+      <div class="wrapper-footer-links-bottom">
+        <div class="footer-bottom-part-container">
+          <div class="brand-logo-footer">
+            <img src="amazon_logo.png" alt="logo" />
+          </div>
+          <div class="footer-bottom-right">
+            <div class="fotter-bottom-right-item">
+              <div class="icon-1">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <div class="item-1-text-container">
+                <p class="item-1-text">English</p>
+              </div>
+              <div class="icon-2">
+                <i class="fa-solid fa-up-down"></i>
+              </div>
+            </div>
+            <div class="fotter-bottom-right-item-2">
+              <div class="icon-1">
+                <i class="fa-solid fa-dollar-sign"></i>
+              </div>
+              <div class="item-2-text-container">
+                <p class="item-2-text">USD - U.S. Dollar</p>
+              </div>
+            </div>
+            <div class="fotter-bottom-right-item-3">
+              <div class="icon-1-usa">
+                <img class="usa-flag" src="united-states.png" alt="flag-usa" />
+              </div>
+              <div class="country-text-container">
+                <p class="country-text">United States</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Other Products-->
+    <div class="other-products-links-container">
+      <div class="wrapper-footer-links-bottom">
+        <div class="copyright-div-up">
+          <ul>
+            <li><a href="">Coditions of use</a></li>
+            <li><a href="">Privacy Notice</a></li>
+            <li><a href="">Your Ads Privacy Choices</a></li>
+          </ul>
+
+          <div class="copyright-div-down">
+            <p class="copyright-text">
+              © 1996-2023, Amazon.com, Inc. or its affiliates
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
